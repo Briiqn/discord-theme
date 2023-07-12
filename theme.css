@@ -1,0 +1,143 @@
+/**
+ * @name Material Discord
+ * @version 3.0.4
+ * @description A theme based on Google's Material Design
+ * @author CapnKitten
+ *
+ * @website http://github.com/CapnKitten
+ * @source https://github.com/CapnKitten/BetterDiscord/blob/master/Themes/Material-Discord/css/source.css
+ * @donate https://paypal.me/capnkitten
+ * @invite jzJkA6Z
+ */
+
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css);
+@import url('https://refact0r.github.io/midnight-discord/midnight.css');
+@import url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/css/source.css);
+
+:root {
+	--accent-hue: 224;
+	--accent-saturation: 71%;
+	--accent-lightness: 61%;
+	--accent-text-color: #fff;
+	--accent-button-action: #fff; /*	-	*/
+
+	--avatar-radius: 50%; /*	-	*/
+
+	--message-radius: 19px;
+	--message-padding-top: 8px;
+	--message-padding-side: 12px; /*	-	*/
+
+	--media-radius: 19px; /*	-	*/
+
+	--card-radius: 8px;
+	--card-radius-big: 18px; /*	-	*/
+
+	--popout-radius: 8px;
+	--popout-radius-big: 18px;
+	  /*My Account Button*/
+    --username-button-width: 128px; /* Adjust the with of the username button to match your discord username lenght */
+    --username-button-padding: 6px; /* Padding for the username button */
+    --username-button-right-margin: 12px; /* Width between the username button and the window controls */
+
+    /*Server List*/
+    --server-icon-size: 32px;  /* Size of the server icons */
+    --server-outer-margin: 14px;  /* Spacing between the edge of the container and the server icons.*/
+    --server-spacing: 10px;  /* Spacing between each server icon*/
+
+    /*Server Info Bar*/
+    --app-info-bar-height: 48px; /* Height for container that holds the server name, info, actions and search */
+	/* link color */
+	--link-color: hsl(190, 70%, 60%);
+	/* main accent color (mentions, folder icons, unread indicators) */
+	--accent-color: hsl(190, 60%, 50%);
+	/* darker accent color (background of any accent items with text) */
+	--accent-background: hsl(190, 60%, 40%);
+	/* even darker accent color (background of accent buttons when hover) */
+	--accent-background-2: hsl(190, 60%, 30%);
+	/* even darker accent color (background of accent buttons when clicked) */
+	--accent-background-3: hsl(190, 60%, 20%);
+	/* background of mention text and messages that mention you */
+	--mention-modifier: hsla(190, 60%, 50%, 0.1);
+	/* background of messages that mention you on hover */
+	--mention-hover-modifier: hsla(190, 60%, 50%, 0.05);
+	/* bright text for colored buttons */
+	--bright-text: hsl(220, 40%, 90%);
+	/* header text for headers and certain text */
+	--header-text: hsl(220, 30%, 70%);
+	/* main text color (messages, titles, unread text/indicators) */
+	--primary-text: hsl(220, 15%, 60%);
+	/* secondary text color (channels, descriptions, buttons) */
+	--secondary-text: hsl(220, 15%, 40%);
+	/* muted text color (input box placeholders, muted channels, message times) */
+	--muted-text: hsl(220, 15%, 24%);
+	/* background of muted colored buttons on hover */
+	--muted-background-hover: hsl(220, 15%, 20%);
+	/* background of muted colored buttons on click */
+	--muted-background-active: hsl(220, 15%, 16%);
+	/* background of pretty much everything not using primary background */
+	--secondary-background: hsl(220, 15%, 13%);
+	/* main chat/channel list/member list background */
+	--primary-background: hsl(220, 15%, 10%);
+	/* overlay background on stuff when hovered over */
+	--hover-modifier: hsl(230, 20%, 40%, 0.1);
+	/* overlay background on stuff when clicked or selected */
+	--active-modifier: hsl(220, 20%, 40%, 0.2);
+	/* overlay background on messages when hovered over */
+	--message-hover-modifier: hsl(220, 0%, 0%, 0.1);
+	/* radius of round corners */
+	--roundness: 16px;
+
+}
+
+
+/* change colors here */
+
+
+/**
+ * @name Alexis Modern Discord Theme
+ * @author Alexis | WyvernZu#0001
+ * @authorLink https://twitter.com/WyvernZu
+ * @version 21.07.22
+ * @description A decluttered, simple, and modern theme for Discord.
+ * @source https://github.com/AlexisJonsson/AlexisJonsson.github.io/tree/master/BetterDiscordAddons/Themes
+ * @website https://alexisjonsson.com/
+*/
+/**
+ * @name EmojiReplace
+ * @description Replaces Discord's Emojis with Emojis of a different Provider (Apple, Facebook...)
+ * @author DevilBro
+ * @version 1.0.0
+ * @authorId 278543574059057154
+ * @invite Jx3TjNS
+ * @donate https://www.paypal.me/MircoWittrien
+ * @patreon https://www.patreon.com/MircoWittrien
+ * @website https://mwittrien.github.io/
+ * @source https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/EmojiReplace/
+ * @updateUrl https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/EmojiReplace.theme.css
+ */
+
+/*
+	!!READ THIS!!
+	
+	This theme lets you swap the default emojis of discord with the emojis of a provider of your choice.
+	To change the provider simply swap the marked word in the import url down below with a supported provider listed below.
+	The name of the provider is CASE SENSITIVE, meaning you have to write it exactly like it's written below.
+	Correct: Apple
+	False: apple, APPLE, aPpLe
+	
+	Supported Providers:
+		→ Apple
+		→ Facebook
+		→ Google
+		→ JoyPixels
+		→ Microsoft
+		→ OpenMoji
+		→ Samsung
+		→ Toss
+		→ WhatsApp
+*/
+
+/*																				  REPLACE THIS		*/
+/*																					 ↓↓↓↓↓			*/
+/*																					 ↑↑↑↑↑		  	*/
+/*																				  REPLACE THIS		*/
